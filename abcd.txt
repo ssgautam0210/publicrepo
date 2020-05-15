@@ -1,0 +1,5 @@
+<#if project.name = "Axco.QA.ApiAutomation" || project.name = "Axco.QA.FunctionalAutomation">
+	<br>
+    <p>Codecoveragereport can be downloaded from below url:</p>
+	<a href='http://axcodev-cibuildserver.axco.co.uk/repository/download/${buildType.externalId}/.lastSuccessful/output-reports.zip'>Click here to download zip.</a>
+  </#if>
